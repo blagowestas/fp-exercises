@@ -1,5 +1,3 @@
-; firts exercise - Boyan
-
 #lang racket
 (require racket/trace)
 

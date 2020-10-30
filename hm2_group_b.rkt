@@ -64,5 +64,6 @@
 (define (ends-with? number test)
   (cond ((= (quotient test 10) 0) (= test (remainder number 10)))
         ((= (remainder number 10) (remainder test 10)) (ends-with? (quotient number 10) (quotient test 10)))
-        (else #f)))
+        (else #f))
+)
 
